@@ -236,3 +236,20 @@ a:hover::before{
     color: #2B98DB;
     font-weight: bold;
 }
+
+.footer-icons{
+    color: gainsboro;
+}
+
+.gatway-img{
+    filter: grayscale(100%);
+}
+
+.footer-link:hover{
+    color: #2B98DB;
+}
+
+.footer-upper{
+    background-color: #2B98DB;
+    padding: 20px 0;
+}
