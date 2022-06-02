@@ -27,7 +27,6 @@ body{
 /****************************** 
     Main Navbar design 
 *******************************/
-
 .fa-user{
     color:#ececec;
     padding: .5rem;
@@ -59,7 +58,9 @@ a:hover::before{
     color: #2B98DB;
 }
 
-
+/****************************** 
+    Landing page design 
+*******************************/
 .carousel-control-prev-icon{
     background-color: #2B98DB;
 }
@@ -76,4 +77,59 @@ a:hover::before{
 .carousel-control-next-icon {
     position: absolute;
     right: 0;
+}
+
+.btn-bg{
+    background-color: #2B98DB;
+}
+
+
+/****************************** 
+    Service page design 
+*******************************/
+.service-icon{
+    color:#ececec;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #2B98DB;
+    box-shadow: 0 0 0 2px black, inset 0 0 0 4px white;
+    top: -20px;
+    position: absolute;
+    left: 20px;
+}
+
+.card-bg{
+    background-color: #2B98DB;
+}
+
+.service-search{
+    min-height:100%;
+    background:url("../images/search-img.jpg") , linear-gradient(rgba(0, 0, 0, 0.9),rgba(0,0,0,0.9));;
+    background-size:cover;
+    background-blend-mode: overlay;
+}
+
+.search{
+    margin: auto;
+    width: 50%;
+}
+
+.search-button{
+    margin: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button{
+    background-color: #2B98DB;
+    border-radius: none;
+}
+
+.input-group{
+    border: 6px solid #2B98DB;
+    border-radius: 10px;
 }
