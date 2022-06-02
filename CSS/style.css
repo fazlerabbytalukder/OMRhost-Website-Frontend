@@ -1,0 +1,79 @@
+/****************************** 
+    Universal designs part 
+*******************************/
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.body-color{
+    background-color: #ececec;
+}
+
+
+/****************************** 
+    navbar top part design 
+*******************************/
+.fa-brands:hover{
+    color: #2B98DB;
+    cursor: pointer;
+}
+
+.fa-wifi:hover{
+    color: #2B98DB;
+    cursor: pointer;
+}
+
+
+/****************************** 
+    Main Navbar design 
+*******************************/
+
+.fa-user{
+    color:#ececec;
+    padding: .5rem;
+    border-radius: 50%;
+    background-color: #2B98DB;
+    box-shadow: 0 0 0 2px black, inset 0 0 0 4px white;
+}
+
+a{
+    position: relative;
+}
+
+a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #2B98DB;
+    opacity: 0;
+}
+
+a:hover::before{
+    opacity: 1;
+    top: 0;
+}
+
+.nav-link{
+    color: #2B98DB;
+}
+
+
+.carousel-control-prev-icon{
+    background-color: #2B98DB;
+}
+
+.carousel-control-next-icon{
+    background-color: #2B98DB;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 0;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    right: 0;
+}
