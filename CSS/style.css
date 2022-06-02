@@ -152,3 +152,87 @@ a:hover::before{
     height: 2px;
     background-color: #2B98DB;
 }
+
+
+/****************************** 
+    Pricing page design 
+*******************************/
+.price-icon{
+    color:#ececec;
+    padding: 1.5rem;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 0 0 0 4px black, inset 0 0 0 1px white;
+    /* top: -20px;
+    position: absolute;
+    left: 20px; */
+}
+
+.price-icon-1{
+    color:#ececec;
+    padding: 1.5rem;
+    border-radius: 50%;
+    background-color: #2B98DB;
+    box-shadow: 0 0 0 4px #2B98DB, inset 0 0 0 1px white;
+    /* top: -20px;
+    position: absolute;
+    left: 20px; */
+}
+
+.price-card-1{
+    background-color: black;
+    padding: 25px 0;
+}
+
+.price-card-2{
+    background-color: #2B98DB;
+    padding: 25px 0;
+}
+
+.starting-at{
+    margin-bottom: -25px;
+}
+
+.pricing-icon{
+    margin: auto;
+    margin-top: -27px;
+}
+
+.order-button-1{
+    background-color: #2B98DB;
+    border: none;
+}
+
+.order-button-2{
+    background-color: black;
+    border: none;
+}
+
+.pricing-card{
+    position: relative;
+}
+
+.pricing-card span{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pricing-card span::before{
+    content: 'Recommended';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background: white;
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B98DB;
+    font-weight: bold;
+}
