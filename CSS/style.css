@@ -133,3 +133,22 @@ a:hover::before{
     border: 6px solid #2B98DB;
     border-radius: 10px;
 }
+
+
+/****************************** 
+    Domain Features page design 
+*******************************/
+.icon-color{
+    color: #2B98DB;
+}
+
+.icon-color::after{
+    content: "";
+    margin-top: 10px;
+    display: block;
+    bottom: 5%;
+    left: 0;
+    width: 15%;
+    height: 2px;
+    background-color: #2B98DB;
+}
