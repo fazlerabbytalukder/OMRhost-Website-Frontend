@@ -243,6 +243,34 @@ a:hover::before{
 
 
 /****************************** 
+    offer page design 
+*******************************/
+.offer-button{
+    background-color: white;
+    border: none;
+    padding: 2rem 3rem;
+    border: .5px solid gainsboro;
+}
+
+.popover {
+    background: #2B98DB;
+    color: white;
+}
+
+.bs-popover-top>.popover-arrow::after{
+    border-top-color: #2B98DB;
+}
+
+.popover-body{
+    color: white;
+}
+
+.offer-icon:hover{
+    color: #2B98DB;
+}
+
+
+/****************************** 
     Footer page design 
 *******************************/
 .footer-icons{
