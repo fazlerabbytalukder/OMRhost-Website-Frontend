@@ -163,9 +163,6 @@ a:hover::before{
     border-radius: 50%;
     background-color: black;
     box-shadow: 0 0 0 4px black, inset 0 0 0 1px white;
-    /* top: -20px;
-    position: absolute;
-    left: 20px; */
 }
 
 .price-icon-1{
@@ -174,9 +171,6 @@ a:hover::before{
     border-radius: 50%;
     background-color: #2B98DB;
     box-shadow: 0 0 0 4px #2B98DB, inset 0 0 0 1px white;
-    /* top: -20px;
-    position: absolute;
-    left: 20px; */
 }
 
 .price-card-1{
@@ -216,7 +210,6 @@ a:hover::before{
     position: absolute;
     width: 150px;
     height: 150px;
-    /* background: red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,6 +230,21 @@ a:hover::before{
     font-weight: bold;
 }
 
+
+/****************************** 
+    Achievment page design 
+*******************************/
+.achievment{
+    min-width: 100%;
+    background:url("../images/Achievment-img.jpg") , linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8));;
+    background-size:cover;
+    background-blend-mode: overlay;
+}
+
+
+/****************************** 
+    Footer page design 
+*******************************/
 .footer-icons{
     color: gainsboro;
 }
@@ -251,5 +259,4 @@ a:hover::before{
 
 .footer-upper{
     background-color: #2B98DB;
-    padding: 20px 0;
 }
