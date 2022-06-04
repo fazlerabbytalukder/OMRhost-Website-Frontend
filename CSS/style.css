@@ -63,10 +63,13 @@ a:hover::before{
 *******************************/
 .carousel-control-prev-icon{
     background-color: #2B98DB;
+    padding-top: 100px;
 }
+
 
 .carousel-control-next-icon{
     background-color: #2B98DB;
+    padding-top: 100px;
 }
 
 .carousel-control-prev-icon {
@@ -107,6 +110,8 @@ a:hover::before{
     background:url("../images/search-img.jpg") , linear-gradient(rgba(0, 0, 0, 0.9),rgba(0,0,0,0.9));;
     background-size:cover;
     background-blend-mode: overlay;
+    position: relative;
+    margin-top: -3rem;
 }
 
 .search{
@@ -134,6 +139,16 @@ a:hover::before{
     border-radius: 10px;
 }
 
+.view-more-button{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.service-card:hover{
+    position: relative;
+    top: -40px;
+}
 
 /****************************** 
     Domain Features page design 
