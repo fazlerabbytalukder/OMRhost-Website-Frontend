@@ -286,6 +286,36 @@ a:hover::before{
 
 
 /****************************** 
+    Why Choose Us page design 
+*******************************/
+
+.cols-1{
+    background-color: #2B98DB;
+    padding: 10rem 2rem;
+}
+
+.cols-2{
+    background-color: black;
+    padding: 1.5rem;
+}
+
+.cols-3{
+    background-color: #2B98DB;
+    padding: 1.5rem;
+}
+
+.cols-4{
+    background-color: #2B98DB;
+    padding: 1.5rem;
+}
+
+.cols-6{
+    background-color: #2B98DB;
+    padding: 1.5rem;
+}
+
+
+/****************************** 
     Footer page design 
 *******************************/
 .footer-icons{
