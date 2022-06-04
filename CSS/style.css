@@ -299,19 +299,24 @@ a:hover::before{
     padding: 1.5rem;
 }
 
-.cols-3{
+.cols-3,.cols-4,.cols-6{
     background-color: #2B98DB;
     padding: 1.5rem;
 }
 
-.cols-4{
-    background-color: #2B98DB;
-    padding: 1.5rem;
+.borders-1{
+    border: 5px solid white;
 }
 
-.cols-6{
-    background-color: #2B98DB;
-    padding: 1.5rem;
+.borders-2{
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.borders-3{
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
 }
 
 
