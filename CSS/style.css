@@ -29,7 +29,7 @@ body{
 *******************************/
 .fa-user{
     color:#ececec;
-    padding: .5rem;
+    padding: .9rem;
     border-radius: 50%;
     background-color: #2B98DB;
     box-shadow: 0 0 0 2px black, inset 0 0 0 4px white;
@@ -58,6 +58,19 @@ a:hover::before{
     color: #2B98DB;
 }
 
+
+.nav-vl {
+    border-left: 2px solid gainsboro;
+    height: 20px;
+}
+
+.user-icon-position-parent{
+    position: relative;
+}
+
+.user-icon-position-child{
+    position: absolute;
+}
 /****************************** 
     Landing page design 
 *******************************/
